@@ -81,7 +81,7 @@ export class Track {
       'Döttinger Höhe': 0.5, 'Antoniusbuche': 0.6, 'Tiergarten': 0.7,
       'Kesselchen': 1.25, 'Bergwerk': 1.2, 'Brünnchen': 1.3,
       'Pflanzgarten': 1.55, 'Sprunghügel': 1.6, 'Stefan-Bellof-S': 1.4,
-      'Wippermann': 1.35, 'Eschbach': 1.25, 'Hatzenbach': 1.2,
+      'Wippermann': 1.35, 'Eschbach': 1.25, 'Hahzenbogen': 1.2,
     };
     this.rough = new Float32Array(n).fill(1);
     for (let si = 0; si < data.segments.length; si++) {
