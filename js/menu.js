@@ -39,7 +39,7 @@ export function showMenu({ trackData, currentTrack, currentCar, onStart }) {
   ov.id = 'menu';
   ov.innerHTML = `
     <div id="menu-inner">
-      <h1>NÜRBURGRING<span>DRIVE</span></h1>
+      <h1>NJ<span>DRIVE</span></h1>
       <div class="menu-sec">TRACK</div>
       <div id="menu-tracks"></div>
       <div class="menu-sec">CAR</div>
