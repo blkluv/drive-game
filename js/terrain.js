@@ -1,4 +1,4 @@
-// Terrain: a real DEM when one is supplied (Nürburgring), otherwise a
+// Terrain: a real DEM when one is supplied (Nü Jersey), otherwise a
 // procedural rolling ground derived from the track's own elevation (Spa,
 // practice). Either way exposes the same demHeight / worldGround / buildDem.
 import * as THREE from 'three';
@@ -62,7 +62,7 @@ export function demHeight(x, z) {
   let y = rawDem(x, z);
   if (!_track) return y;
   // corridor carving — terrain may never rise above a cone from the road, so
-  // it can't poke up onto the track. Real DEM (Nürburgring): tight cone past a
+  // it can't poke up onto the track. Real DEM (Nü Jersey): tight cone past a
   // coarse distance gate. Procedural (Spa/practice): keep ground below the road
   // within ~55 m, hills only emerge gently beyond.
   let ni;
